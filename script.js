@@ -38,5 +38,3 @@ const myArray = [promise1, promise2, promise3, promise4, promise5];
 Promise.any(myArray).then((result) => {
     document.getElementById("output").innerText = result;
 });
-// Do not change the code above this
-// add your promises to the array `promises`
